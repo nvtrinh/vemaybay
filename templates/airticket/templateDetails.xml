@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN"
+        "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+    <name>airticket</name>
+    <version>v5</version>
+    <creationDate>2015</creationDate>
+    <author>atjoomla</author>
+    <authorEmail>info@atjoomla.com</authorEmail>
+    <authorUrl>http://www.atjoomla.com</authorUrl>
+    <copyright>copyright (c) 2004-2015 - atjoomla.com</copyright>
+    <license>GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html</license>
+
+    <files>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <folder>images</folder>
+        <folder>css</folder>
+        <folder>html</folder>
+        <folder>language</folder>
+    </files>
+    <positions>
+        <position>left</position>
+        <position>right</position>
+        <position>header_top1</position>
+        <position>header_top2</position>
+        <position>header1</position>
+        <position>header2</position>
+        <position>header3</position>
+        <position>header4</position>
+        <position>navigation</position>
+        <position>top1</position>
+        <position>top2</position>
+        <position>top3</position>
+        <position>top4</position>
+        <position>bottom1</position>
+        <position>bottom2</position>
+        <position>bottom3</position>
+        <position>bottom4</position>
+        <position>footer</position>
+        <position>footer1</position>
+        <position>footer2</position>
+        <position>footer3</position>
+        <position>footer4</position>
+    </positions>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.tpl_at_global_free.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            
+        </fields>
+    </config>
+</extension>
+
