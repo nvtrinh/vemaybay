@@ -22,7 +22,36 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/sty
         <div class="main-menu">
             <jdoc:include type="modules" name="vmb-main-menu" style="none" />
         </div>
+        <div class="clr"></div>
         <div class="main-content">
+            <div class="box-left">
+                <div class="support-online same">
+                    <jdoc:include type="modules" name="vmb-support-online" style="none" />
+                </div>
+                <div class="clr"></div>
+                <div class="dailyve samme">
+                    <jdoc:include type="modules" name="dailyve" style="none" />
+                </div>
+                <div class="thongtindatve same">
+                    <p class="title">Thông tin đặt vé</p>
+                    <jdoc:include type="modules" name="thongtindatve" style="none" />
+                </div>
+                <div class="lienketnoibat same">
+                    <p class="title">Liên Kết Nổi Bật</p>
+                    <jdoc:include type="modules" name="lienketnoibat" style="none" />
+                </div>
+                <div class="tinnoibat same">
+                    <p class="title">Tin Nổi Bật</p>
+                    <jdoc:include type="modules" name="tinnoibat" style="none" />
+                </div>
+                <div class="lienkethuuich same">
+                    <p class="title">Liên Kết Hữu Ích</p>
+                    <jdoc:include type="modules" name="lienkethuuich" style="none" />
+                </div>
+            </div>
+            <div class="box-right">
+                <jdoc:include type="component" />
+            </div>
 
         </div>
         <div class="clr"></div>

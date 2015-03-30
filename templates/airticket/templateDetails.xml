@@ -22,12 +22,12 @@
     <positions>
         <position>vmb-banner1</position>
         <position>vmb-main-menu</position>
-        <position>header1</position>
-        <position>header2</position>
-        <position>header3</position>
-        <position>header4</position>
-        <position>navigation</position>
-        <position>top1</position>
+        <position>vmb-support-online</position>
+        <position>dailyve</position>
+        <position>thongtindatve</position>
+        <position>lienketnoibat</position>
+        <position>tinnoibat</position>
+        <position>lienkethuuich</position>
         <position>top2</position>
         <position>top3</position>
         <position>top4</position>

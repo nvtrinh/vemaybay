@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+    <name>mod_support</name>
+    <author>Joomla! Project</author>
+    <creationDate>March 2015</creationDate>
+    <copyright>Copyright (C) 2005 - 2015 Open Source Matters. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>admin@joomla.org</authorEmail>
+    <authorUrl>www.joomla.org</authorUrl>
+    <version>3.0.0</version>
+    <description>MOD_SUPPORT_ONLINE_XML_DESCRIPTION</description>
+    <files>
+        <filename module="mod_support">mod_support.php</filename>
+        <folder>tmpl</folder>
+        <filename>helper.php</filename>
+        <filename>mod_support.xml</filename>
+    </files>
+    <languages>
+        <language tag="en-GB">en-GB.mod_support.ini</language>
+        <language tag="en-GB">en-GB.mod_support.sys.ini</language>
+    </languages>
+    <help key="JHELP_EXTENSIONS_MODULE_MANAGER_ARTICLES_ARCHIVE" />
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                        name="hotline"
+                        type="text"
+                        default=""
+                        label="MOD_SUPPORT_ONLINE_FIELD_HOTLINE_LABEL"
+                        description="MOD_SUPPORT_ONLINE_FIELD_HOTLINE_DESC" />
+                <field
+                        name="sp-in"
+                        type="textarea"
+                        default=""
+                        label="MOD_SUPPORT_ONLINE_FIELD_SUPPORT_IN_LABEL"
+                        description="MOD_SUPPORT_ONLINE_FIELD_SUPPORT_IN_DESC" />
+                <field
+                        name="sp-out"
+                        type="textarea"
+                        default=""
+                        label="MOD_SUPPORT_ONLINE_FIELD_SUPPORT_OUT_LABEL"
+                        description="MOD_SUPPORT_ONLINE_FIELD_SUPPORT_OUT_DESC" />
+
+            </fieldset>
+        </fields>
+    </config>
+</extension>
