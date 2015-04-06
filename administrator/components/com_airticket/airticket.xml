@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.2.0" method="upgrade">
+
+	<name>Airticket</name>
+	<!-- The following elements are optional and free of formatting constraints -->
+	<creationDate>February 2015</creationDate>
+	<author>trinhnv</author>
+	<authorEmail>john.doe@example.org</authorEmail>
+	<authorUrl>http://www.example.org</authorUrl>
+	<copyright>Copyright Info</copyright>
+	<license>License Info</license>
+	<!--  The version string is recorded in the components table -->
+	<version>0.0.15</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>COM_AIRTICKET_DESCRIPTION</description>
+
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>helloworld.php</filename>
+		<filename>controller.php</filename>
+		<folder>views</folder>
+		<folder>models</folder>
+	</files>
+
+        <languages folder="site/language">
+		<language tag="en-GB">en-GB/en-GB.com_helloworld.ini</language>
+        </languages>
+
+	<administration>
+		<menu link='index.php?option=com_airticket' img="../media/com_helloworld/images/tux-16x16.png">AIRTICKET</menu>
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>config.xml</filename>
+			<filename>airticket.php</filename>
+			<filename>controller.php</filename>
+			<filename>access.xml</filename>
+			<folder>tables</folder>
+			<folder>models</folder>
+			<folder>views</folder>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+		</files>
+		<languages folder="admin/language">
+			<language tag="en-GB">en-GB/en-GB.com_airticket.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_airticket.sys.ini</language>
+		</languages>
+	</administration>
+
+</extension>

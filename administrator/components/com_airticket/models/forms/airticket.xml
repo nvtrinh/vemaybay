@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset	addfieldpath="/administrator/components/com_categories/models/fields"
+				name="details"
+				label="COM_AIRTICKET_AIRTICKET_DETAILS"
+	>
+		<field
+				name="id"
+				type="hidden"
+				/>
+		<field
+				name="name"
+				type="text"
+				label="COM_AIRTICKET_AIRTICKET_TITLE_LABEL"
+				description="COM_AIRTICKET_AIRTICKET_TITLE_DESC"
+				size="40"
+				class="inputbox"
+				required="true"
+				default=""
+				/>
+		<field
+				name="address_from"
+				type="address"
+				extension="com_airticket"
+				class="inputbox"
+				default=""
+				label="ADDRESS_FIELD_ADDRESS_FROM_LABEL"
+				description="ADDRESS_FIELD_ADDRESS_FROM_DESC"
+				>
+			<option value="0">SELECT_ADDRESS_FROM</option>
+		</field>
+		<field
+				name="address_to"
+				type="address"
+				extension="com_airticket"
+				class="inputbox"
+				default=""
+				label="ADDRESS_FIELD_ADDRESS_TO_LABEL"
+				description="ADDRESS_FIELD_ADDRESS_TO_DESC"
+				>
+			<option value="0">SELECT_ADDRESS_TO</option>
+		</field>
+		<field
+				name="id_firm"
+				type="firm"
+				extension="com_airticket"
+				class="inputbox"
+				default=""
+				label="FIRM_FIELD_LABEL"
+				description="FIRM_FIELD_DESC"
+				>
+			<option value="0">SELECT_FIRM</option>
+		</field>
+		<field
+				name="time_start"
+				type="calendar"
+				label="TIME_START"
+				description=""
+				format="%d-%m-%Y" />
+		<field
+				name="time_end"
+				type="calendar"
+				label="TIME_END"
+				description=""
+				format="%d-%m-%Y" />
+		<field name="state" type="list" label="JSTATUS"
+			   description="JFIELD_PUBLISHED_DESC" class="chzn-color-state"
+			   filter="intval" size="1" default="1"
+				>
+			<option value="1">
+				JPUBLISHED</option>
+			<option value="0">
+				JUNPUBLISHED</option>
+			<option value="2">
+				JARCHIVED</option>
+			<option value="-2">
+				JTRASHED</option>
+		</field>
+		<field
+				name="type_people"
+				type="people"
+				extension="com_airticket"
+				class="inputbox"
+				label="TYPE_PEOPLE_FIELD_LABEL"
+				description="TYPE_PEOPLE_FIELD_DESC"
+				>
+			<option value="0">SELECT_TYPE_PEOPLE</option>
+		</field>
+	</fieldset>
+</form>
